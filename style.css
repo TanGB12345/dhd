@@ -1,0 +1,30 @@
+#takesnapshot{
+    font-variant: small-caps;
+    font-size: 20px;
+    background-color:white;
+    color: rgb(0, 0, 0);
+}
+#takesnapshot:hover{
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: black;
+    color:white;
+}
+canvas{
+    animation-name:cool;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes cool{
+    from{
+        box-shadow:2px 2px 40px rgb(255, 213, 213);
+    }
+    to{
+        box-shadow:2px 2px 40px rgb(247, 151, 189);
+    }
+}
+h1{
+    font-size:30px;
+}
